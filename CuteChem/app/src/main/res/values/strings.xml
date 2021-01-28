@@ -10,17 +10,12 @@
     <string name="about">About</string>
     <string name="copied">copied</string>
     <string name="version">Version %s</string>
-    <string name="alipay">Alipay</string>
-    <string name="wechat_pay">WeChat Pay</string>
-    <string name="wechat">WeChat</string>
     <string name="what_can_cutechem_do_answer">By typing a chemical formula, CuteChem will corrects its superscript and subscript and calculates its relative mass.</string>
     <string name="my_name">tasy5kg</string>
     <string name="my_email">tasy5kg@qq.com</string>
     <string name="release_date">November 2020</string>
     <string name="donate">Donate</string>
-    <string name="donate_guide">"Please screenshot the qr code above and open %s to scan</string>
     <string name="donate_i_am_happy_to_hear">I am happy to hear that you like this app and decide to donate. Thank you!</string>
-    <string name="_1_99_cny">¥1.99 (CNY)</string>
     <string name="what_can_cutechem_do">What can CuteChem do</string>
     <string name="app_icon">App icon</string>
     <string name="rate">Rate</string>

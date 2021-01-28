@@ -446,15 +446,15 @@ public class MainActivity extends AppCompatActivity
         ELEMENT_TO_MASS_HASH_MAP.put("Bh", 274.1436);
         ELEMENT_TO_MASS_HASH_MAP.put("Hs", 277.1519);
         ELEMENT_TO_MASS_HASH_MAP.put("Mt", 278d);
-        ELEMENT_TO_MASS_HASH_MAP.put("Ds",  281d);
-        ELEMENT_TO_MASS_HASH_MAP.put("Rg",  282d);
-        ELEMENT_TO_MASS_HASH_MAP.put("Cn",  285d);
-        ELEMENT_TO_MASS_HASH_MAP.put("Nh",  284d);
-        ELEMENT_TO_MASS_HASH_MAP.put("Fl",  289d);
-        ELEMENT_TO_MASS_HASH_MAP.put("Mc",  288d);
-        ELEMENT_TO_MASS_HASH_MAP.put("Lv",  292d);
-        ELEMENT_TO_MASS_HASH_MAP.put("Ts",  294d);
-        ELEMENT_TO_MASS_HASH_MAP.put("Og",  295d);
+        ELEMENT_TO_MASS_HASH_MAP.put("Ds", 281d);
+        ELEMENT_TO_MASS_HASH_MAP.put("Rg", 282d);
+        ELEMENT_TO_MASS_HASH_MAP.put("Cn", 285d);
+        ELEMENT_TO_MASS_HASH_MAP.put("Nh", 284d);
+        ELEMENT_TO_MASS_HASH_MAP.put("Fl", 289d);
+        ELEMENT_TO_MASS_HASH_MAP.put("Mc", 288d);
+        ELEMENT_TO_MASS_HASH_MAP.put("Lv", 292d);
+        ELEMENT_TO_MASS_HASH_MAP.put("Ts", 294d);
+        ELEMENT_TO_MASS_HASH_MAP.put("Og", 295d);
     }
 
     private void loadCharToSubscriptMap() {

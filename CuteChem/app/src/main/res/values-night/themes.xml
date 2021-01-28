@@ -1,14 +1,14 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<resources>
+
     <style name="Theme.CuteChem" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
+
         <item name="colorPrimary">@color/colorPrimary</item>
-        <!-- Secondary brand color. -->
         <item name="colorSecondary">?attr/colorPrimary</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
-        <!-- Customize your theme here. -->
-        <item name="android:itemTextAppearance">@style/myCustomMenuTextAppearance</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+
+        <item name="android:itemTextAppearance">
+            @style/myCustomMenuTextAppearance
+        </item>
     </style>
 
     <style name="myCustomMenuTextAppearance" parent="TextAppearance.MaterialComponents.Body1">

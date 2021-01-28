@@ -13,7 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.textview.MaterialTextView;
 
-public class AboutActivity extends AppCompatActivity implements View.OnClickListener {
+public class AboutActivity extends AppCompatActivity
+        implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,7 @@ public class AboutActivity extends AppCompatActivity implements View.OnClickList
                 .setText(getString(R.string.version, BuildConfig.VERSION_NAME));
         findViewById(R.id.about_donate_button).setOnClickListener(this);
         findViewById(R.id.about_rate_button).setOnClickListener(this);
+        findViewById(R.id.about_code_button).setOnClickListener(this);
     }
 
     @Override
@@ -39,7 +41,8 @@ public class AboutActivity extends AppCompatActivity implements View.OnClickList
     public void onClick(@NonNull View v) {
         if (v.getId() == R.id.about_donate_button) {
             startActivity(new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://qr.alipay.com/fkx19871rnswjfeth8a9tfb")));
+                    Uri.parse(
+                            "https://qr.alipay.com/fkx19871rnswjfeth8a9tfb")));
             Toast.makeText(this,
                     getString(R.string.donate_i_am_happy_to_hear),
                     Toast.LENGTH_LONG).show();
@@ -53,6 +56,9 @@ public class AboutActivity extends AppCompatActivity implements View.OnClickList
             } catch (Exception e) {
                 e.printStackTrace();
             }
+        } else if (v.getId() == R.id.about_code_button) {
+            startActivity(new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("https://github.com/tasy5kg/CuteChem")));
         }
     }
 }

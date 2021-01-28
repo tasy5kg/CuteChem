@@ -12,6 +12,7 @@ android {
         targetSdkVersion 30
         versionCode 2
         versionName "2"
+        resConfigs "en", "zh-rCN"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -19,6 +20,7 @@ android {
     buildTypes {
         release {
             minifyEnabled false
+            zipAlignEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
