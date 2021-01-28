@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_check_box_high_precision"
+        android:checkable="true"
+        android:checked="false"
+        android:title="@string/high_precision"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_about"
+        android:checkable="false"
+        android:title="@string/about"
+        app:showAsAction="never" />
+</menu>

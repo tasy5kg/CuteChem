@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CuteChem</string>
+    <string name="chemical_formula">CHEMICAL FORMULA</string>
+    <string name="result">RESULT</string>
+    <string name="copy">COPY</string>
+    <string name="relative_mass">RELATIVE MASS</string>
+    <string name="note">Note</string>
+    <string name="note_text">The value of the charge of the ion cannot be omitted. For example, if you want NO₃⁻, you should type NO31- rather than NO3-.</string>
+    <string name="high_precision">High precision</string>
+    <string name="about">About</string>
+    <string name="copied">copied</string>
+    <string name="version">Version %s</string>
+    <string name="alipay">Alipay</string>
+    <string name="wechat_pay">WeChat Pay</string>
+    <string name="wechat">WeChat</string>
+    <string name="what_can_cutechem_do_answer">By typing a chemical formula, CuteChem will corrects its superscript and subscript and calculates its relative mass.</string>
+    <string name="my_name">tasy5kg</string>
+    <string name="my_email">tasy5kg@qq.com</string>
+    <string name="release_date">November 2020</string>
+    <string name="donate">Donate</string>
+    <string name="donate_guide">"Please screenshot the qr code above and open %s to scan</string>
+    <string name="donate_i_am_happy_to_hear">I am happy to hear that you like this app and decide to donate. Thank you!</string>
+    <string name="_1_99_cny">¥1.99 (CNY)</string>
+    <string name="what_can_cutechem_do">What can CuteChem do</string>
+    <string name="app_icon">App icon</string>
+    <string name="rate">Rate</string>
+    <string name="data_of_elements_used">Data of elements used in CuteChem is
+        based on IUPAC 2007 standard atomic
+        weights.\n\nDependencies:\nandroidx.appcompat:appcompat:1.2.0\ncom.google.android.material:material:1.2.1\ncom.googlecode.aviator:aviator:5.1.4</string>
+    <string name="code">Code</string>
+</resources>
